@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: service-mobile-app
 server:
   port: '8081'
 bucket:
