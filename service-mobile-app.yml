@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-mobile-app
+server:
+  port: '8081'
+bucket:
+  public: '${$BUCKET_PUBLIC:tenant-public}'
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    credentials:
+      accessKey: ${AWS_ACCESS_KEY_ID:}
+      secretKey: ${AWS_SECRET_KEY:}
