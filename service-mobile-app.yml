@@ -21,7 +21,7 @@ spring:
         url: jdbc:mysql://${TEA_DB_URL}/${TEA_DATABASE_NAME}?useUnicode=true&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true
         username: ${TEA_DB_USER}
         password: ${TEA_DB_PASSWORD}
-        driver-class-name: com.mysql.jdbc.Driver
+        driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
         database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
         database: MYSQL
