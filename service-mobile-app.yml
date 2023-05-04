@@ -23,7 +23,6 @@ spring:
         password: root
         driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
-        hibernate:
       hibernate:
         naming:
           implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
