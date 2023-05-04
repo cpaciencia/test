@@ -19,9 +19,9 @@ spring:
         active: #spring.profiles.active#
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://${TEA_DB_URL}/${TEA_DATABASE_NAME}?useUnicode=true&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true
-        username: ${TEA_DB_USER}
-        password: ${TEA_DB_PASSWORD}
+        url: jdbc:mysql://localhost/tea?useUnicode=true&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true
+        username: root
+        password: root
         hikari:
             data-source-properties:
                 cachePrepStmts: true
